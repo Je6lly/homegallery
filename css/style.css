@@ -343,6 +343,7 @@ section.container.margin-m-100 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 10% 0;
 }
 .quote p {
   margin: 5px;
