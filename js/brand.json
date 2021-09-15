@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Bd Barcelona",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "BdBarcelona/1",
+        "logosrc":"BdBarcelona/bdb-logo"
+    },
+    {
+        "id": 2,
+        "name": "De Sede",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "DeSede/D2",
+        "logosrc":"DeSede/desede-logo"
+    },
+    {
+        "id": 3,
+        "name": "MOGG",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "MOGG/MG1",
+        "logosrc":"MOGG/mogg-logo"
+    },
+    {
+        "id":4,
+        "name": "Mojow",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "Mojow/2",
+        "logosrc":"Mojow/mojow-logo"
+    },
+    {
+        "id":5,
+        "name": "Glas",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "Glas/G2",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":6,
+        "name": "Brand6",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/H5",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":7,
+        "name": "Brand7",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/H3",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":8,
+        "name": "Brand8",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/H1",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":9,
+        "name": "Brand9",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/H4",
+        "logosrc":"Glas/glas-logo"
+    }
+]

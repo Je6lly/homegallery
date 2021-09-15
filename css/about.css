@@ -1,0 +1,26 @@
+header{
+    top:0;
+}
+.first-b{
+    margin:10% 0;
+}
+.about-cont-img,.about-cont{padding: 1rem;}
+.about-cont-img img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.showroom-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showroomTitle{
+    text-align:center;
+    font-size:40px;
+    padding:0 3rem 3rem;
+}
+.about-cont-img img,.showroomImg img{
+    border-radius:10px;
+    box-shadow: 7px 6px 163px rgb(120 120 120 / 48%);
+}
