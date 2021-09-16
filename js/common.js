@@ -69,3 +69,11 @@ function getBrandDetail(i) {
 function hideOverview() {
   brandDetail.classList.remove("show");
 }
+
+
+   grecaptcha.ready(function() {
+       grecaptcha.execute('6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });

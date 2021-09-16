@@ -273,7 +273,7 @@ section.container.margin-m-100 {
   background: #f5f5f5;
 }
 
-.page-contactus a.btn.main-btn {
+.page-contactus .btn.main-btn {
   border: 1px solid #ced4da;
   border-radius: 10px;
   background: #fff;
