@@ -1,5 +1,6 @@
 [
     {
+        "alt":"这里开始是furniture的品牌资料,需要增加品牌可以在下面添加，然后去对应的js文件里修改 i+n （如果你加了两个品牌在furniture里面，后续所有其他品牌都需要在js的i后面+2）",
         "id": 1,
         "name": "Bd Barcelona",
         "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
@@ -40,6 +41,7 @@
         "logosrc":"Glas/glas-logo"
     },
     {
+        "alt":"这里开始是artwork的品牌资料，需要增加品牌的话，如上所述，需要在后续的种类js文件里添加相应的数字。",
         "id":6,
         "name": "Brand6",
         "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
@@ -69,6 +71,97 @@
         "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
         "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
         "imgsrc": "index/H4",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "alt":"这里开始是cupboard的品牌资料，需要增加品牌的话，如上所述，需要在后续的种类js文件里添加相应的数字。",
+        "id":10,
+        "name": "Brand10",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/CE4",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":11,
+        "name": "Brand11",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/CE3",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":12,
+        "name": "Brand12",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/CE1",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":13,
+        "name": "Brand13",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/CE2",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "alt":"这里开始是smarthome的品牌资料，需要增加品牌的话，如上所述，需要在后续的种类js文件里添加相应的数字。",
+        "id":14,
+        "name": "Brand14",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/SH2",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":15,
+        "name": "Brand15",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/SH3",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":16,
+        "name": "Brand16",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/SH5",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":17,
+        "name": "Brand17",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/SH1",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "alt":"这里开始是other的品牌资料，需要增加品牌的话，如上所述，需要在后续的种类js文件里添加相应的数字。",
+        "id":18,
+        "name": "Brand18",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/mo1",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":19,
+        "name": "Brand19",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/mo3",
+        "logosrc":"Glas/glas-logo"
+    },
+    {
+        "id":20,
+        "name": "Brand20",
+        "shortDetail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. ",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae blandit dui. Etiam orci magna, aliquam sit amet egestas sed, interdum at mauris. Aenean vitae ornare lorem. Vivamus cursus dolor ex, at varius diam aliquet sed. Sed tempor eu velit non malesuada.",
+        "imgsrc": "index/mo2",
         "logosrc":"Glas/glas-logo"
     }
 ]

@@ -449,6 +449,18 @@ section.container.margin-m-100 {
   margin: 10px;
 }
 /*furniture*/
+.brand-list{
+  margin: 5vh 0;
+}
+.brandImg{
+  height: 25vh;
+  width: 100%;
+}
+.brandImg,
+.brand-list {
+  padding: 5px;
+  justify-content: center;
+}
 .brandImg img,
 .brand-list img {
   width: 100%;
@@ -459,11 +471,6 @@ section.container.margin-m-100 {
 .brand-shortdetail {
   margin: 5% 0;
   padding-left: 5%;
-}
-.brandImg,
-.brand-list {
-  padding: 5px;
-  justify-content: center;
 }
 .brand-box {
   margin: 5px;
