@@ -1,6 +1,8 @@
 axios.get("js/brand.json", {}).then((response) => {
     brands = response.data;
     renderClass(brands);
+    renderEn(brands)
+
   });
 
   function renderClass(brands) {
@@ -14,4 +16,14 @@ axios.get("js/brand.json", {}).then((response) => {
       
     });
   }
-  
+  function renderEn(brands) {
+    brands.forEach((brand) => {
+      for (i=0; i < getDetailBtnEn.length; i++) {    
+        getDetailBtn[i].innerHTML =`<div><button onclick="getBrandDetailEn(${i+5})">More</button></div>`;
+      }
+      for (i=0; i < brandBoxBtn.length; i++) {    
+        brandBoxBtn[i].innerHTML =`<div onclick="getBrandDetailEn(${i+5})"><img src="images/gallery/${brands[i].logosrc}.jpg"></div>`;
+      }
+      
+    });
+  }
