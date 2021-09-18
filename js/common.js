@@ -69,14 +69,14 @@ function hideOverview() {
   brandDetail.classList.remove("show");
 }
 
-grecaptcha.ready(function () {
-  grecaptcha
-    .execute("6LfBW3YcAAAAACYTHGlU0Xknz3eKy1DsfY7XcHZy", { action: "homepage" })
-    .then(function (token) {
-      document.getElementById("captchaResponse").value = token;
-    });
-});
-var onloadCallback = function() {
-  alert("grecaptcha is ready!");
-};
-//  [anr_nocaptcha g-recaptcha-response]
+
+// var onloadCallback = function() {
+//   alert("grecaptcha is ready!");
+//   grecaptcha.ready(function () {
+//     grecaptcha
+//       .execute("6LfBW3YcAAAAACYTHGlU0Xknz3eKy1DsfY7XcHZy", { action: "homepage" })
+//       .then(function (token) {
+//         document.getElementById("captchaResponse").value = token;
+//       });
+//   });
+// };
