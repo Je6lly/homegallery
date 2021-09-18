@@ -1,40 +1,39 @@
 // page-loader js
-$('#page-anim-preloader').delay('10').fadeOut(2000);
-setTimeout(page_anim_remove_preloader, '11000');
+$("#page-anim-preloader").delay("10").fadeOut(2000);
+setTimeout(page_anim_remove_preloader, "11000");
 
 function page_anim_remove_preloader() {
-    $('#page-anim-preloader').remove();
+  $("#page-anim-preloader").remove();
 }
 
 //Scroll to Top =
-$(window).on("scroll", function() {
-    if ($(this).scrollTop() >= 50) {
-        $('#return-to-top').fadeIn(200);
-    } else {
-        $('#return-to-top').fadeOut(200);
-    }
+$(window).on("scroll", function () {
+  if ($(this).scrollTop() >= 50) {
+    $("#return-to-top").fadeIn(200);
+  } else {
+    $("#return-to-top").fadeOut(200);
+  }
 });
 
-
-$('#return-to-top').on("click", function() {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 500);
+$("#return-to-top").on("click", function () {
+  $("body,html").animate(
+    {
+      scrollTop: 0,
+    },
+    500
+  );
 });
 
-$(function(){
-    $("#nav-placeholder").load("nav.html");
-    $("#footer-placeholder").load("footer.html");
-  });
+$(function () {
+  $("#nav-placeholder").load("nav.html");
+  $("#footer-placeholder").load("footer.html");
+});
 
-
-  
 var brands = [];
 
 var brandDetail = document.getElementById("BrandDetail");
 var getDetailBtn = document.getElementsByClassName("joinusbtn");
 var brandBoxBtn = document.getElementsByClassName("brand-box");
-
 
 function getBrandDetail(i) {
   var dtwrap = brandDetail.querySelector(".detail-wrap");
@@ -64,16 +63,20 @@ function getBrandDetail(i) {
         </div>
       </div>
     </div>
-  `
+  `;
 }
 function hideOverview() {
   brandDetail.classList.remove("show");
 }
 
-
-   grecaptcha.ready(function() {
-       grecaptcha.execute('6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S', {action: 'homepage'})
-       .then(function(token) {
-         document.getElementById('captchaResponse').value = token;
-       });
-     });
+grecaptcha.ready(function () {
+  grecaptcha
+    .execute("6LfBW3YcAAAAACYTHGlU0Xknz3eKy1DsfY7XcHZy", { action: "homepage" })
+    .then(function (token) {
+      document.getElementById("captchaResponse").value = token;
+    });
+});
+var onloadCallback = function() {
+  alert("grecaptcha is ready!");
+};
+//  [anr_nocaptcha g-recaptcha-response]
