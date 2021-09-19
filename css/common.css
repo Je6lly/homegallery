@@ -41,6 +41,7 @@ h4{
 
 .logo img {
     width: 100%;
+    object-fit: contain;
 }
 .navbar {
     border-bottom: 2px solid rgba(135,135,135,0.51);

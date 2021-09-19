@@ -81,8 +81,8 @@ function getBrandDetailEn(i) {
         <div class="col-12 dt-img"><img src="images/gallery/${brands[i].imgsrc}.jpg"></div>
         <div class="dt-card-content d-flex row align-content-center justify-content-center">
         <div class="col-12 col-lg-8">
-        <div class="dt-card-title">${brands[i].name}</div>
-        <div class="dt-card-text">${brands[i].detail}</div>
+        <div class="dt-card-title">${brands[i].name_en}</div>
+        <div class="dt-card-text">${brands[i].detail_en}</div>
         <div class="joinusbtn" onclick="hideOverview()">
         <button>Back</button>
         </div>
